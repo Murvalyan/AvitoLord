@@ -1,0 +1,152 @@
+@media (max-width: 1240px) {
+    .ml115 {
+        margin-left: 0px!important;
+    }
+    .mr115 {
+        margin-right: 0px!important;
+    }
+    .header__afterHand::after {
+        margin-left: -11%;
+    }
+}
+@media (max-width: 992px) {
+    .ml115 {
+        margin-left: 115px!important;
+        margin-bottom: 15px!important;
+    }
+    .mr115 {
+        
+        margin-right: 50px!important;
+    }
+    .header__rowTop {
+        padding: 0 15px!important;
+    }
+    .header__afterHand::after {
+        width: 350px!important;
+        top: 27%!important;
+        left: 18%!important;
+    }
+    .header__textAvito {
+        min-height: 180px!important;
+        font-size: 140px!important;
+    }
+    .header__textAvito_go {
+        font-size: 70px!important;
+    }
+    .calc__row {
+        margin: 0!important;
+    }
+    .weWork__wayRow {
+        margin-left: 0!important;
+        margin-right: 0!important;
+    }
+    .footer__bottom {
+        padding: 40px 15px!important;
+    }
+}
+@media (max-width: 930px) {
+    .header__afterHand::after {
+        top: 27%!important;
+        left: 20%!important;
+    }
+    .header__textAvito_go {
+        font-size: 60px!important;
+        margin-right: 40px!important;
+    }
+}
+@media (max-width: 880px) {
+
+    .header__textAvito_go {
+        font-size: 60px!important;
+        
+    }
+    .header__afterHand::after {
+        width: 300px!important;
+        top: 20%!important;
+        left: 24%!important;
+    }
+    .header__textAvito {
+        font-size: 140px!important;
+    }
+    .header__textAvito_go {
+        margin: 0!important;
+    }
+    .header__textAvito_go {
+        font-size: 50px!important;
+        
+    }
+    .header__afterHand::after {
+        width: 300px!important;
+        top: 23%!important;
+        left: 24%!important;
+    }
+    .header__textAvito {
+        font-size: 140px!important;
+    }
+    .header__textAvito_go {
+        margin: 0!important;
+    }
+    .header__bodyTextWpr {
+        margin: 0!important;
+    }
+}
+@media (max-width: 810px) { 
+    .ml115 {
+        margin: 0!important;
+    }
+    .header__textAvito_go {
+        font-size: 60px!important; 
+    }
+    .header__afterHand::after {
+        width: 300px!important;
+        top: 20%!important;
+        left: 10%!important;
+    }
+    .header__textAvito {
+        font-size: 135px!important;
+    }
+    .header__textAvito_Avito {
+        margin-bottom: 15px!important;
+    }
+}
+@media (max-width: 767px) {
+    .ml115,
+    .mr115 {
+        margin: 0!important;
+    }
+    .header__afterHand::after {
+        display: none!important;
+    }
+    .header__textAvito {
+        font-size: 100px!important;
+    }
+    .header__textAvito_go {
+        font-size: 60px!important;
+        justify-content: flex-start!important;
+    }
+    .header__blockText {
+        align-items: flex-start!important;
+    }  
+}
+@media (max-width: 560px) {
+    .title {
+        font-size: 30px!important;
+    }
+}
+@media (max-width: 480px) {
+    .title {
+        font-size: 22px!important;
+    }
+    .whatWeCanDo {
+        padding-bottom: 100px!important;
+    }
+    .howWillThisHelp__title {
+        margin-bottom: 40px!important;
+    }
+    .header__textAvito {
+        font-size: 80px!important;
+    }
+    .header__textAvito_go {
+        font-size: 36px!important;
+    }
+}

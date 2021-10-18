@@ -145,6 +145,7 @@ body { /*Стили для body*/
     position: absolute;
     top: 100px;
     right: 40px;
+    z-index: -1;
 }
 .subtitle {  
     font-size: 24px;
@@ -215,6 +216,7 @@ body { /*Стили для body*/
     position: absolute;
     top: 490px;
     right: 70%;
+    z-index: -1;
 }
 .howWillThisHelp__title {
     margin-bottom: 90px;

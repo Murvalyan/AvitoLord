@@ -5,6 +5,14 @@
     .mr115 {
         margin-right: 0px!important;
     }
+    .calc__col_pr100 {
+        padding-right: 10px!important;
+    }
+    .whatWeCanDo::after,
+    .calc::after {
+        width: 500px!important;
+        height: 500px!important;
+    }
     .header__afterHand::after {
         margin-left: -11%;
     }
@@ -148,5 +156,8 @@
     }
     .header__textAvito_go {
         font-size: 36px!important;
+    }
+    .calc__row {
+        background: transparent!important;
     }
 }

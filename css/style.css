@@ -43,6 +43,10 @@ body { /*Стили для body*/
     line-height: 26px;
     font-weight: 400;
 }
+.wrapper {
+    max-width: 1920px;
+    margin: 0 auto;
+}
 .header { /*Стили для header*/
     width: 100%;
     min-height: 804px;
@@ -130,7 +134,19 @@ body { /*Стили для body*/
     left: 0;
     background: url(../img/icons/arrow.png) no-repeat;
 }
-.subtitle {  /*Стили для whatWeCanDo*/
+.whatWeCanDo::after {/*Стили для whatWeCanDo*/
+    display: block;
+    content: "";
+    width: 700px;
+    height: 700px;
+    opacity: 0.3;
+    background-color: #d4d0ff;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    right: 40px;
+}
+.subtitle {  
     font-size: 24px;
     line-height: 26px;
     font-weight: 700;
@@ -186,9 +202,26 @@ body { /*Стили для body*/
 }
 .howWillThisHelp { /*Стиля для howWillThisHelp*/
     padding-bottom: 50px;
+    position: relative;
+}
+.howWillThisHelp::before {
+    display: block;
+    content: "";
+    width: 484px;
+    height: 484px;
+    opacity: 0.3;
+    background-color: #99e999;
+    border-radius: 50%;
+    position: absolute;
+    top: 490px;
+    right: 70%;
 }
 .howWillThisHelp__title {
     margin-bottom: 90px;
+}
+.howWillThisHelp__colItems {
+    padding-top: 50px;
+    background: #fff;
 }
 .howWillThisHelp__text {
     font-size: 18px;
@@ -309,11 +342,28 @@ body { /*Стили для body*/
 .calc { /*Стили для calc*/
     padding-bottom: 100px;
 }
+.calc::after {
+    display: block;
+    content: "";
+    width: 700px;
+    height: 700px;
+    opacity: 0.3;
+    background-color: #d4d0ff;
+    border-radius: 50%;
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    z-index: -1;
+}
 .calc__row {
-    margin: 0 115px 0 50px;
+    margin: 0 50px 0 50px;
+    background: #fff;
 }
 .calc__col {
     margin-bottom: 40px;
+}
+.calc__col_pr100 {
+    padding-right: 100px;
 }
 .calc__title,
 .calc__subtitle {
@@ -476,7 +526,7 @@ body { /*Стили для body*/
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    max-width: 393px;
+    max-width: 100%;
     height: 245px;
     position: relative;
     border-radius: 0 0 20px 20px;
@@ -544,6 +594,6 @@ body { /*Стили для body*/
     background: #fff;
 }
 .footer__bottom {
-    border-top: 1px solid var(--colorMain);
+    border-top: 1px solid #94c0db;
     padding: 40px 0;
 }
